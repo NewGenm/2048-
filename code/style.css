@@ -1,0 +1,50 @@
+body {
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+}
+header {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+header div {
+  margin-top: 20px;
+  font-size: 20px;
+}
+header #score {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#grid-container {
+  margin: 30px auto;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(161, 113, 41, 0.7);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  position: relative;
+}
+#grid-container .grid-cells {
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(252, 247, 247, 0.3);
+  border-radius: 10px;
+}
+.number-Cells {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
+/*# sourceMappingURL=./style.css.map */
